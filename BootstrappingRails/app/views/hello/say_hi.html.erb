@@ -1,0 +1,11 @@
+<div class = "container">
+  <div class = "row">
+    <div class = "col-md-8">
+      <%= image_tag "hello.gif" %>
+    </div>
+    <div class = "col-md-4">
+      <h1> Hello, <%=@name%>, please enjoy the site </h1>
+      <h5> <%=link_to "Say goodbye to Andy", goodbye_path(:name => "Andy") %>
+    </div>
+  </div>
+</div>
